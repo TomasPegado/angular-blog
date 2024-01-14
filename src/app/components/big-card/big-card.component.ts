@@ -10,9 +10,11 @@ export class BigCardComponent {
   photoCover: string = '';
 
   @Input()
-  cardTitle: string = 'DRAGÃO EM CAMPO DE BATALHA';
+  cardTitle: string = '';
 
   @Input()
-  cardDescription: string =
-    'O dragão entrou no campo de batalha e virou o jogo os verdes';
+  cardDescription: string = '';
+
+  @Input()
+  Id: string = '0';
 }
